@@ -4,6 +4,8 @@ Editors, IDEs, language runtimes, build tools and SDKs.
 
 **64 tools** — 64 package-verified.
 
+Install the Windows tools below in one go with the [`category-development`](../bundles/category-development.winget.json) bundle — see [bundles](../bundles/).
+
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
 | **[.NET SDK 9](../tools/net-sdk-9.md)** | The .NET SDK is Microsoft's free, cross-platform developer platform for building web, desktop, cloud, and c... | Windows (packaged) | `MIT` |
@@ -15,7 +17,7 @@ Editors, IDEs, language runtimes, build tools and SDKs.
 | **[Apache NetBeans](../tools/apache-netbeans.md)** | Apache NetBeans is a free, open-source IDE for Java, PHP, JavaScript, and C/C++, with Maven and Gradle supp... | Windows (packaged) | `Apache-2.0` |
 | **[Bazelisk](../tools/bazelisk.md)** | Bazelisk is a wrapper that downloads and runs the Bazel version a project pins, so builds stay reproducible... | Windows (packaged) | `Apache-2.0` |
 | **[Bun](../tools/bun.md)** | Bun is a JavaScript runtime, package manager, bundler, and test runner designed as a drop-in replacement fo... | Windows (packaged) | `MIT` |
-| **[ChatGPT Desktop](../tools/chatgpt-desktop.md)** | The official ChatGPT desktop app for Windows, distributed through the Microsoft Store | Windows (packaged) | `?` |
+| **[ChatGPT Desktop](../tools/chatgpt-desktop.md)** | The official ChatGPT desktop app for Windows, distributed through the Microsoft Store | Windows (packaged) | `Proprietary` |
 | **[Claude Code](../tools/claude-code.md)** | Anthropic's agentic coding tool for terminal and IDE development workflows | Windows (packaged) | `Proprietary` |
 | **[Claude Desktop](../tools/claude-desktop.md)** | Anthropic's Claude desktop application for focused AI-assisted work and chat | Windows (packaged) | `Proprietary` |
 | **[CLion](../tools/clion.md)** | CLion is JetBrains' commercial C and C++ IDE, built around CMake with an integrated debugger and static ana... | Windows (packaged) | `Proprietary` |

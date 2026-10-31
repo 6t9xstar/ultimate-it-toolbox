@@ -2,9 +2,9 @@
 
 ## Why almost everything is "Not yet rated"
 
-Every tool card in this directory currently reads `Not yet rated`. That is deliberate, and it is the honest state of the data.
+Almost every tool card in this directory reads `Not yet rated`. That is deliberate, and it is the honest state of the data.
 
-Rating 389 tools would mean claiming to have installed, configured and compared all of them. Nobody has. A directory that labels tools "Best Overall" on the strength of search-engine popularity is worse than one that says nothing, because the label looks like evidence when it is really just traffic.
+Rating <!--n:total-->759<!--/n--> tools would mean claiming to have installed, configured and compared all of them. Nobody has. A directory that labels tools "Best Overall" on the strength of search-engine popularity is worse than one that says nothing, because the label looks like evidence when it is really just traffic.
 
 So the vocabulary below is defined and ready, and ratings get applied by people who have actually used the tool and can say why. A rating without a stated reason is not accepted — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -34,14 +34,27 @@ Not popularity. Judge on:
 
 ## Applying a rating
 
-Replace the `Rating` row on the tool card and give a one-line justification:
+Ratings live in [`.build/ratings.json`](.build/ratings.json), keyed by the card's file name, so they survive regeneration. Each needs a label from the table above and a reason; `Deprecated` also needs an evidence link:
+
+```json
+"example-tool": {"label": "Best Open Source", "reason": "Active signed releases and the only option here with full protocol coverage."}
+```
+
+Run `python .build/generate.py`, and the card's `Rating` row becomes:
 
 ```markdown
-| Rating | **Best Open Source** — active signed releases and the only option here with full protocol coverage. |
+| Rating | **Best Open Source** — Active signed releases and the only option here with full protocol coverage. |
 ```
+
+`python .build/validate.py` rejects a label outside the vocabulary, a rating with no reason, and a `Deprecated` with no evidence.
 
 ## The one label that can be applied from evidence alone
 
 `Deprecated` does not need hands-on testing. If upstream is archived, or the project states it is unmaintained, mark it and link the proof.
 
-One seeded entry already qualifies on those grounds: the legacy Windows port of **Redis**, which Microsoft archived years ago. Its card notes that current versions need WSL or a Redis-compatible Windows server instead.
+<!--n:rated-->2<!--/n--> entries carry it today:
+
+| Tool | Why |
+|---|---|
+| [Redis (Windows port)](tools/redis-windows-port.md) | Microsoft archived the port, which is frozen at Redis 3.x. Use Redis under WSL, [Memurai](tools/memurai-developer.md) or [Valkey](tools/valkey.md). |
+| [.NET Desktop Runtime 6](tools/net-desktop-runtime-6.md) | .NET 6 reached end of support on 12 November 2024. Install it only for an app that still needs it. |

@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Software Development |
-| Official website | <https://code.claude.com/> |
+| Official website | <https://claude.com/product/claude-code> |
 | Licence | `Proprietary` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |

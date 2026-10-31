@@ -1,6 +1,6 @@
 # KeePassXC
 
-> KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information. You can run KeePassXC on Windows, macOS, and Linux systems. KeePassXC is for people with extremely high demands of secure personal data management. It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions. For easy identification and management, user-defined titles and icons can be specified for entries. In addition, entries are sorted into customizable groups. An integrated search function allows you to use advanced patterns to easily find any entry in your database. A customizable, fast, and easy-to-use password generator utility allows you to create passwords with any combination of characters or easy to remember passphrases.
+> KeePassXC is a cross-platform, community-maintained password manager that keeps credentials, notes and attachments in an encrypted local KeePass database, with browser integration and TOTP support.
 
 ## Overview
 
@@ -11,6 +11,7 @@
 | Licence | `GPL-2.0-or-later` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
+| Certification relevance | Security+ |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

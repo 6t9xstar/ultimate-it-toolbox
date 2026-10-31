@@ -1,6 +1,6 @@
 # TightVNC
 
-> TightVNC is a free and open-source remote desktop software that lets you access and control a computer over the network. With its intuitive interface, you can interact with the remote screen as if you were sitting in front of it. You can open files, launch applications, and perform other actions on the remote desktop almost as if you were physically there.
+> TightVNC is a free VNC server and viewer for Windows that lets you view and control a remote desktop over the network.
 
 ## Overview
 

@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Browsers |
-| Official website | <https://www.mozilla.org/en-US/firefox/enterprise/> |
+| Official website | <https://www.firefox.com/en-US/enterprise/> |
 | Licence | `MPL-2.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |

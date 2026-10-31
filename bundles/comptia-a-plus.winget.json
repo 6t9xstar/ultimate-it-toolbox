@@ -1,0 +1,53 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.Suite"
+        },
+        {
+          "PackageIdentifier": "REALiX.HWiNFO"
+        },
+        {
+          "PackageIdentifier": "CPUID.CPU-Z"
+        },
+        {
+          "PackageIdentifier": "TechPowerUp.GPU-Z"
+        },
+        {
+          "PackageIdentifier": "CrystalDewWorld.CrystalDiskInfo"
+        },
+        {
+          "PackageIdentifier": "Rufus.Rufus"
+        },
+        {
+          "PackageIdentifier": "Ventoy.Ventoy"
+        },
+        {
+          "PackageIdentifier": "AntibodySoftware.WizTree"
+        },
+        {
+          "PackageIdentifier": "BleachBit.BleachBit"
+        },
+        {
+          "PackageIdentifier": "alexx2000.DoubleCommander"
+        },
+        {
+          "PackageIdentifier": "CGSecurity.TestDisk"
+        },
+        {
+          "PackageIdentifier": "Balena.Etcher"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

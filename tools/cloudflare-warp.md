@@ -1,6 +1,6 @@
 # Cloudflare WARP
 
-> WARP is a freemium VPN service provided by Cloudflare. Includes usage of Cloudflare's DNS
+> Cloudflare WARP is a freemium VPN-like client that tunnels traffic through Cloudflare and uses its 1.1.1.1 DNS resolver, and it is also the endpoint agent for Cloudflare Zero Trust.
 
 ## Overview
 

@@ -1,15 +1,15 @@
 # TheHive
 
-> TheHive is a security incident response platform for case management and collaborative investigation, often paired with MISP.
+> TheHive is a security incident response platform for case management and collaborative investigation, often paired with MISP; TheHive 4, the last AGPL release, is end-of-life.
 
 ## Overview
 
 | Property | Value |
 |---|---|
 | Category | Cybersecurity |
-| Official website | <https://thehive-project.org/> |
-| Licence | `AGPL-3.0 (community)` |
-| Source model | Open source |
+| Official website | <https://strangebee.com/thehive/> |
+| Licence | `Proprietary (free Community licence)` |
+| Source model | Proprietary |
 | Platform | Self-hosted |
 | Certification relevance | CySA+, GCIH |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
@@ -17,7 +17,7 @@
 
 ## How to get it
 
-Docker, or distribution packages
+Docker images or Linux packages from StrangeBee; the free Community licence limits users and some features
 
 See the official site for current instructions — deployment steps change more often than this directory does.
 

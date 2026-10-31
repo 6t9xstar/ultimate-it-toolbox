@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Operating Systems & System Administration |
-| Official website | <https://ente.io/auth/> |
+| Official website | <https://ente.com/auth/> |
 | Licence | `AGPL-3.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |

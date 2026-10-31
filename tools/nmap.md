@@ -11,6 +11,7 @@
 | Licence | `Modified GNU GPLv2` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
+| Certification relevance | CCNA, CCNP, Network+, Security+, OSCP |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

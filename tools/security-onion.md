@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Cybersecurity |
-| Official website | <https://securityonion.net/> |
+| Official website | <https://securityonionsolutions.com/> |
 | Licence | `Various (mostly GPL)` |
 | Source model | Open source |
 | Platform | Appliance (Linux) |

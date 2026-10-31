@@ -1,0 +1,39 @@
+name: Correct an entry
+description: A wrong package id, licence, link, category or description.
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If a package id installs **something other than the tool described**, or a project looks hijacked,
+        follow [SECURITY.md](https://github.com/6t9xstar/ultimate-it-toolbox/blob/main/SECURITY.md) instead — that is a security issue, not a typo.
+  - type: input
+    id: card
+    attributes:
+      label: Card
+      description: Path or link to the tool card.
+      placeholder: tools/example.md
+    validations:
+      required: true
+  - type: dropdown
+    id: what
+    attributes:
+      label: What is wrong
+      multiple: true
+      options:
+        - winget or Chocolatey id does not resolve
+        - Licence is wrong or outdated
+        - Official website is dead or has moved
+        - Project is abandoned or archived
+        - Wrong category
+        - Description is inaccurate
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Command output (`winget show --id … --exact`), a link to the licence file, the archive notice, and so on.
+    validations:
+      required: true

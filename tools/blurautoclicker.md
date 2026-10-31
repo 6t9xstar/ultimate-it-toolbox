@@ -1,13 +1,13 @@
 # BlurAutoClicker
 
-> An Auto-clicker with a few advanced features and generally better performance than popular alternatives.
+> BlurAutoClicker is an open-source auto-clicker with configurable click patterns, hotkeys and low CPU use.
 
 ## Overview
 
 | Property | Value |
 |---|---|
 | Category | Operating Systems & System Administration |
-| Official website | <https://blur009.vercel.app/projects/blur-autoclicker/> |
+| Official website | <https://github.com/Blur009/Blur-AutoClicker> |
 | Licence | `GPL-3.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |

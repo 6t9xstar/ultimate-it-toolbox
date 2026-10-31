@@ -11,6 +11,7 @@
 | Licence | `GPL-3.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
+| Certification relevance | A+ |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

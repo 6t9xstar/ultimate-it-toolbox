@@ -1,0 +1,74 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "7zip.7zip"
+        },
+        {
+          "PackageIdentifier": "amir1376.ABDownloadManager"
+        },
+        {
+          "PackageIdentifier": "aria2.aria2"
+        },
+        {
+          "PackageIdentifier": "hluk.CopyQ"
+        },
+        {
+          "PackageIdentifier": "Iterate.Cyberduck"
+        },
+        {
+          "PackageIdentifier": "alexx2000.DoubleCommander"
+        },
+        {
+          "PackageIdentifier": "Dropbox.Dropbox"
+        },
+        {
+          "PackageIdentifier": "voidtools.Everything"
+        },
+        {
+          "PackageIdentifier": "Google.GoogleDrive"
+        },
+        {
+          "PackageIdentifier": "MHNexus.HxD"
+        },
+        {
+          "PackageIdentifier": "Tonec.InternetDownloadManager"
+        },
+        {
+          "PackageIdentifier": "agalwood.Motrix"
+        },
+        {
+          "PackageIdentifier": "rcmaehl.MSEdgeRedirect"
+        },
+        {
+          "PackageIdentifier": "M2Team.NanaZip"
+        },
+        {
+          "PackageIdentifier": "Giorgiotani.Peazip"
+        },
+        {
+          "PackageIdentifier": "Rclone.Rclone"
+        },
+        {
+          "PackageIdentifier": "WhirlwindFX.SignalRgb"
+        },
+        {
+          "PackageIdentifier": "Ghisler.TotalCommander"
+        },
+        {
+          "PackageIdentifier": "RARLab.WinRAR"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a malicious, hijacked or typosquatted package
+    url: https://github.com/6t9xstar/ultimate-it-toolbox/blob/main/SECURITY.md
+    about: Follow the security policy instead of opening a public issue.

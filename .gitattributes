@@ -1,0 +1,5 @@
+# The generator writes LF; keep every checkout identical so `generate.py --check` is meaningful.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.ico binary

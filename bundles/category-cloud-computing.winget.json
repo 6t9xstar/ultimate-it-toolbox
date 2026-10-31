@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Amazon.AWSCLI"
+        },
+        {
+          "PackageIdentifier": "Amazon.SAM-CLI"
+        },
+        {
+          "PackageIdentifier": "Amazon.SessionManagerPlugin"
+        },
+        {
+          "PackageIdentifier": "Amazon.AWSVPNClient"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Azure.AZCopy.10"
+        },
+        {
+          "PackageIdentifier": "Microsoft.AzureCLI"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Azd"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Azure.FunctionsCoreTools"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Azure.StorageExplorer"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Bicep"
+        },
+        {
+          "PackageIdentifier": "DigitalOcean.Doctl"
+        },
+        {
+          "PackageIdentifier": "eksctl.eksctl"
+        },
+        {
+          "PackageIdentifier": "Fly-io.flyctl"
+        },
+        {
+          "PackageIdentifier": "Google.CloudSDK"
+        },
+        {
+          "PackageIdentifier": "Heroku.HerokuCLI"
+        },
+        {
+          "PackageIdentifier": "MinIO.Client"
+        },
+        {
+          "PackageIdentifier": "Oracle.OCI-CLI"
+        },
+        {
+          "PackageIdentifier": "PlanetScale.CLI"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

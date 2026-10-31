@@ -1,0 +1,206 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.DotNet.SDK.9"
+        },
+        {
+          "PackageIdentifier": "Amazon.Corretto.21.JDK"
+        },
+        {
+          "PackageIdentifier": "Amazon.Corretto.25.JDK"
+        },
+        {
+          "PackageIdentifier": "Amazon.Corretto.8.JDK"
+        },
+        {
+          "PackageIdentifier": "Google.PlatformTools"
+        },
+        {
+          "PackageIdentifier": "Google.AndroidStudio"
+        },
+        {
+          "PackageIdentifier": "Apache.NetBeans"
+        },
+        {
+          "PackageIdentifier": "Bazel.Bazelisk"
+        },
+        {
+          "PackageIdentifier": "Oven-sh.Bun"
+        },
+        {
+          "PackageIdentifier": "Anthropic.ClaudeCode"
+        },
+        {
+          "PackageIdentifier": "Anthropic.Claude"
+        },
+        {
+          "PackageIdentifier": "JetBrains.CLion"
+        },
+        {
+          "PackageIdentifier": "Kitware.CMake"
+        },
+        {
+          "PackageIdentifier": "OpenAI.Codex"
+        },
+        {
+          "PackageIdentifier": "Anysphere.Cursor"
+        },
+        {
+          "PackageIdentifier": "DenoLand.Deno"
+        },
+        {
+          "PackageIdentifier": "Erlang.ErlangOTP"
+        },
+        {
+          "PackageIdentifier": "Schniz.fnm"
+        },
+        {
+          "PackageIdentifier": "Git.Git"
+        },
+        {
+          "PackageIdentifier": "GitExtensionsTeam.GitExtensions"
+        },
+        {
+          "PackageIdentifier": "GitHub.cli"
+        },
+        {
+          "PackageIdentifier": "GitHub.GitHubDesktop"
+        },
+        {
+          "PackageIdentifier": "Axosoft.GitKraken"
+        },
+        {
+          "PackageIdentifier": "GoLang.Go"
+        },
+        {
+          "PackageIdentifier": "GodotEngine.GodotEngine"
+        },
+        {
+          "PackageIdentifier": "JetBrains.GoLand"
+        },
+        {
+          "PackageIdentifier": "Hugo.Hugo.Extended"
+        },
+        {
+          "PackageIdentifier": "JetBrains.IntelliJIDEA.Community"
+        },
+        {
+          "PackageIdentifier": "JetBrains.Rider"
+        },
+        {
+          "PackageIdentifier": "JetBrains.Toolbox"
+        },
+        {
+          "PackageIdentifier": "JesseDuffield.lazygit"
+        },
+        {
+          "PackageIdentifier": "LLVM.LLVM"
+        },
+        {
+          "PackageIdentifier": "rjpcomputing.luaforwindows"
+        },
+        {
+          "PackageIdentifier": "Neovim.Neovim"
+        },
+        {
+          "PackageIdentifier": "Ninja-build.Ninja"
+        },
+        {
+          "PackageIdentifier": "OpenJS.NodeJS"
+        },
+        {
+          "PackageIdentifier": "OpenJS.NodeJS.LTS"
+        },
+        {
+          "PackageIdentifier": "Notepad++.Notepad++"
+        },
+        {
+          "PackageIdentifier": "CoreyButler.NVMforWindows"
+        },
+        {
+          "PackageIdentifier": "SST.opencode"
+        },
+        {
+          "PackageIdentifier": "JetBrains.PhpStorm"
+        },
+        {
+          "PackageIdentifier": "pnpm.pnpm"
+        },
+        {
+          "PackageIdentifier": "JetBrains.PyCharm.Community"
+        },
+        {
+          "PackageIdentifier": "Python.Python.3.14"
+        },
+        {
+          "PackageIdentifier": "Responsively.ResponsivelyApp"
+        },
+        {
+          "PackageIdentifier": "RubyInstallerTeam.Ruby.4.0"
+        },
+        {
+          "PackageIdentifier": "Rustlang.Rust.MSVC"
+        },
+        {
+          "PackageIdentifier": "Genymobile.scrcpy"
+        },
+        {
+          "PackageIdentifier": "StrawberryPerl.StrawberryPerl"
+        },
+        {
+          "PackageIdentifier": "SublimeHQ.SublimeText.4"
+        },
+        {
+          "PackageIdentifier": "Unity.UnityHub"
+        },
+        {
+          "PackageIdentifier": "astral-sh.uv"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudio.2022.Community"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudio.Community"
+        },
+        {
+          "PackageIdentifier": "Volta.Volta"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode"
+        },
+        {
+          "PackageIdentifier": "VSCodium.VSCodium"
+        },
+        {
+          "PackageIdentifier": "JetBrains.WebStorm"
+        },
+        {
+          "PackageIdentifier": "Codeium.Windsurf"
+        },
+        {
+          "PackageIdentifier": "WinMerge.WinMerge"
+        },
+        {
+          "PackageIdentifier": "Yarn.Yarn"
+        },
+        {
+          "PackageIdentifier": "ZedIndustries.Zed"
+        },
+        {
+          "PackageIdentifier": "zig.zig"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

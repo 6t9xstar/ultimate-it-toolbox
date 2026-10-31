@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "WiresharkFoundation.Wireshark"
+        },
+        {
+          "PackageIdentifier": "Insecure.Nmap"
+        },
+        {
+          "PackageIdentifier": "PJO2.tftpd64"
+        },
+        {
+          "PackageIdentifier": "ar51an.iPerf3"
+        },
+        {
+          "PackageIdentifier": "leeter.WinMTR"
+        },
+        {
+          "PackageIdentifier": "PuTTY.PuTTY"
+        },
+        {
+          "PackageIdentifier": "Oracle.VirtualBox"
+        },
+        {
+          "PackageIdentifier": "Python.Python.3.14"
+        },
+        {
+          "PackageIdentifier": "astral-sh.uv"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode"
+        },
+        {
+          "PackageIdentifier": "Git.Git"
+        },
+        {
+          "PackageIdentifier": "Microsoft.WSL"
+        },
+        {
+          "PackageIdentifier": "JGraph.Draw"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

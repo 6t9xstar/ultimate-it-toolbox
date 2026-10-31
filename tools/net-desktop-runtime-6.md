@@ -11,7 +11,7 @@
 | Licence | `MIT` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
-| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Rating | **Deprecated** — .NET 6 reached end of support on 12 November 2024 and no longer receives security fixes. Install it only for an app that still requires it. ([evidence](https://dotnet.microsoft.com/platform/support/policy/dotnet-core)) |
 | Last verified | 2026-10-30 |
 
 ## Install on Windows

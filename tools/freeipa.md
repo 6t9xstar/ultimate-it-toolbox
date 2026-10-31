@@ -1,0 +1,38 @@
+# FreeIPA
+
+> FreeIPA combines LDAP, Kerberos, DNS and a certificate authority into one identity-management server for Linux estates, and is the upstream of RHEL IdM.
+
+## Overview
+
+| Property | Value |
+|---|---|
+| Category | Privacy & Personal Security |
+| Official website | <https://www.freeipa.org/> |
+| Licence | `GPL-3.0` |
+| Source model | Open source |
+| Platform | Linux |
+| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Last verified | 2026-10-31 |
+
+## How to get it
+
+Distribution package on RHEL, Rocky, AlmaLinux or Fedora
+
+```bash
+sudo dnf install freeipa-server
+sudo ipa-server-install
+```
+
+See the official site for current instructions — deployment steps change more often than this directory does.
+
+## Verification
+
+**Tier: upstream-documented.**
+
+- Official URL confirmed to resolve on 2026-10-31.
+- Licence and install route are as documented upstream, **not** machine-verified the way a package id can be. Check the project's own licence file before relying on it commercially.
+- Not installable through WinUtil Pro: this is not a Windows package.
+
+---
+
+[← Privacy & Personal Security](../23-privacy-security/) · [All tools](../tools/) · [All categories](../README.md)

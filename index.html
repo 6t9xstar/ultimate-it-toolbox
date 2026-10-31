@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ultimate IT Toolbox — search</title>
+<meta name="description" content="Search a verified directory of IT, networking, security, Linux, DevOps, cloud and AI tools by name, category, certification, licence and platform.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2328; --muted: #59636e; --line: #d1d9e0; --card: #f6f8fa;
+    --accent: #0969da; --ok: #1a7f37; --warn: #9a6700; --chip: #ddf4ff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #9198a1; --line: #3d444d; --card: #151b23;
+            --accent: #4493f8; --ok: #3fb950; --warn: #d29922; --chip: #0c2d6b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         background: var(--bg); color: var(--fg); }
+  header, main, footer { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 28px; }
+  h1 { margin: 0 0 4px; font-size: 26px; }
+  header p { margin: 0 0 16px; color: var(--muted); }
+  a { color: var(--accent); }
+  .controls { display: grid; gap: 8px; grid-template-columns: 2fr repeat(4, 1fr); margin-bottom: 8px; }
+  @media (max-width: 800px) { .controls { grid-template-columns: 1fr 1fr; } .controls .q { grid-column: 1 / -1; } }
+  input, select, button { font: inherit; color: inherit; background: var(--bg); border: 1px solid var(--line);
+                          border-radius: 6px; padding: 7px 10px; }
+  input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .status { color: var(--muted); margin: 6px 0 14px; min-height: 1.5em; }
+  ul.results { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  li.tool { border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; background: var(--card); }
+  .top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+  .name { font-weight: 600; font-size: 16px; }
+  .chip { font-size: 12px; padding: 1px 8px; border-radius: 999px; background: var(--chip); white-space: nowrap; }
+  .tier-package { color: var(--ok); font-weight: 600; }
+  .tier-upstream { color: var(--warn); font-weight: 600; }
+  .desc { margin: 6px 0 8px; }
+  .meta { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  .install { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+  code { font: 13px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; background: var(--bg);
+         border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; overflow-x: auto; white-space: nowrap; flex: 1; }
+  button.copy { cursor: pointer; flex: none; }
+  .more { display: block; margin: 16px auto; cursor: pointer; }
+  .more[hidden] { display: none; }
+  footer { color: var(--muted); font-size: 13px; padding: 24px 16px 40px; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Ultimate IT Toolbox</h1>
+  <p>Search every tool in the directory. Package-verified tools have a confirmed winget id; upstream-documented tools are Linux, appliance or self-hosted.
+     <a href="https://github.com/6t9xstar/ultimate-it-toolbox">Repository</a> ·
+     <a href="https://github.com/6t9xstar/ultimate-it-toolbox/blob/main/CERTIFICATION-MAP.md">Certification map</a> ·
+     <a href="https://github.com/6t9xstar/ultimate-it-toolbox/tree/main/bundles">Install bundles</a></p>
+</header>
+<main>
+  <form class="controls" role="search" onsubmit="return false">
+    <label class="q"><span class="sr">Search</span>
+      <input id="q" type="search" placeholder="Search name, description or licence…" autocomplete="off" autofocus style="width:100%"></label>
+    <label><span class="sr">Category</span><select id="cat"><option value="">All categories</option></select></label>
+    <label><span class="sr">Certification</span><select id="cert"><option value="">Any certification</option></select></label>
+    <label><span class="sr">Tier</span><select id="tier">
+      <option value="">Both tiers</option><option value="package">Package-verified</option><option value="upstream">Upstream-documented</option></select></label>
+    <label><span class="sr">Source model</span><select id="src"><option value="">Any source model</option></select></label>
+  </form>
+  <div class="status" id="status" role="status" aria-live="polite">Loading catalogue…</div>
+  <ul class="results" id="results"></ul>
+  <button class="more" id="more" hidden>Show more</button>
+</main>
+<footer>
+  Generated from <a href="data/catalog.json">data/catalog.json</a>. Nothing here is rated unless the card says so —
+  see <a href="https://github.com/6t9xstar/ultimate-it-toolbox/blob/main/RATINGS.md">RATINGS.md</a>.
+  Offensive security tools are listed for authorised testing and study only.
+</footer>
+<script>
+"use strict";
+const REPO = "https://github.com/6t9xstar/ultimate-it-toolbox/blob/main/";
+const PAGE = 60;
+const $ = (id) => document.getElementById(id);
+let tools = [], shown = PAGE;
+
+function option(sel, value, label) {
+  const o = document.createElement("option");
+  o.value = value; o.textContent = label; sel.appendChild(o);
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text !== undefined) e.textContent = text;
+  return e;
+}
+
+function readState() {
+  const p = new URLSearchParams(location.hash.slice(1));
+  for (const k of ["q", "cat", "cert", "tier", "src"]) if (p.has(k)) $(k).value = p.get(k);
+}
+
+function writeState() {
+  const p = new URLSearchParams();
+  for (const k of ["q", "cat", "cert", "tier", "src"]) if ($(k).value) p.set(k, $(k).value);
+  history.replaceState(null, "", p.toString() ? "#" + p : location.pathname);
+}
+
+function matches(t, words) {
+  if ($("cat").value && t.category !== $("cat").value) return false;
+  if ($("tier").value && t.tier !== $("tier").value) return false;
+  if ($("src").value && t.source_model !== $("src").value) return false;
+  if ($("cert").value && !t.certifications.includes($("cert").value)) return false;
+  return words.every((w) => t._hay.includes(w));
+}
+
+function render() {
+  const words = $("q").value.toLowerCase().split(/\s+/).filter(Boolean);
+  const hits = tools.filter((t) => matches(t, words));
+  if (words.length) {
+    const w = words.join(" ");
+    hits.sort((a, b) => (b.name.toLowerCase().startsWith(w) - a.name.toLowerCase().startsWith(w)) ||
+                        a.name.localeCompare(b.name));
+  }
+  $("status").textContent = hits.length + " of " + tools.length + " tools";
+  const ul = $("results");
+  ul.replaceChildren();
+  for (const t of hits.slice(0, shown)) {
+    const li = el("li", "tool");
+    const top = el("div", "top");
+    const a = el("a", "name", t.name);
+    a.href = REPO + t.card;
+    top.append(a, el("span", "tier-" + t.tier, t.tier === "package" ? "package-verified" : "upstream-documented"),
+               el("span", "chip", t.category_title));
+    if (t.rating) top.append(el("span", "chip", t.rating));
+    li.append(top, el("p", "desc", t.description));
+    const meta = el("div", "meta");
+    meta.append(el("span", "", "Licence: " + (t.licence || "unknown")), el("span", "", t.platform));
+    if (t.certifications.length) meta.append(el("span", "", "Certifications: " + t.certifications.join(", ")));
+    const site = el("a", "", "Official site");
+    site.href = t.website; site.rel = "noopener";
+    meta.append(site);
+    li.append(meta);
+    if (t.tier === "package") {
+      const row = el("div", "install");
+      row.append(el("code", "", t.install));
+      const b = el("button", "copy", "Copy");
+      b.type = "button";
+      b.setAttribute("aria-label", "Copy install command for " + t.name);
+      b.onclick = () => navigator.clipboard.writeText(t.install).then(() => {
+        b.textContent = "Copied"; setTimeout(() => (b.textContent = "Copy"), 1500);
+      });
+      row.append(b);
+      li.append(row);
+    }
+    ul.append(li);
+  }
+  $("more").hidden = hits.length <= shown;
+}
+
+function update() { shown = PAGE; writeState(); render(); }
+
+fetch("data/catalog.json")
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((data) => {
+    tools = data.tools.map((t) => Object.assign(t, {
+      _hay: [t.name, t.description, t.licence || "", t.category_title, t.platform,
+             t.winget || "", t.certifications.join(" ")].join(" ").toLowerCase(),
+    }));
+    const cats = new Map(), certs = new Set(), srcs = new Set();
+    for (const t of tools) {
+      cats.set(t.category, t.category_title);
+      t.certifications.forEach((c) => certs.add(c));
+      srcs.add(t.source_model);
+    }
+    [...cats].sort().forEach(([k, v]) => option($("cat"), k, v));
+    [...certs].sort().forEach((c) => option($("cert"), c, c));
+    [...srcs].sort().forEach((s) => option($("src"), s, s));
+    readState();
+    render();
+  })
+  .catch(() => {
+    $("status").textContent = "Could not load data/catalog.json. Serve this folder over HTTP " +
+      "(for example: python -m http.server) rather than opening the file directly.";
+  });
+
+for (const id of ["q", "cat", "cert", "tier", "src"]) $(id).addEventListener("input", update);
+$("more").onclick = () => { shown += PAGE; render(); };
+window.addEventListener("hashchange", () => { readState(); render(); });
+</script>
+</body>
+</html>

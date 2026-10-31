@@ -7,10 +7,11 @@
 | Property | Value |
 |---|---|
 | Category | DevOps, Containers & IaC |
-| Official website | <https://www.terraform.io/> |
+| Official website | <https://developer.hashicorp.com/terraform> |
 | Licence | `BUSL-1.1` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
+| Certification relevance | AWS, Azure, Google Cloud, Terraform Associate |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

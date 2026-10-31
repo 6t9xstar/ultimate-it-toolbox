@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Browsers |
-| Official website | <https://www.mozilla.org/firefox/developer/> |
+| Official website | <https://www.firefox.com/en-US/channel/desktop/developer/> |
 | Licence | `MPL-2.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |

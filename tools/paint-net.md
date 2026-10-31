@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Design & Engineering |
-| Official website | <https://www.getpaint.net/> |
+| Official website | <https://paint.net/> |
 | Licence | `Proprietary (Freeware)` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |

@@ -11,6 +11,7 @@
 | Licence | `Apache-2.0 or MIT` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
+| Certification relevance | CCNP |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

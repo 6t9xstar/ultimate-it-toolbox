@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Software Development |
-| Official website | <https://desktop.github.com/> |
+| Official website | <https://github.com/apps/desktop> |
 | Licence | `MIT` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
@@ -18,7 +18,7 @@
 
 ```powershell
 winget install --id GitHub.GitHubDesktop --exact
-choco install git;github-desktop
+choco install github-desktop
 ```
 
 ## Verification

@@ -1,0 +1,34 @@
+# step-ca
+
+> step-ca is Smallstep's private certificate authority for issuing TLS and SSH certificates, including over ACME, inside your own network.
+
+## Overview
+
+| Property | Value |
+|---|---|
+| Category | Web Infrastructure |
+| Official website | <https://smallstep.com/docs/step-ca/> |
+| Licence | `Apache-2.0` |
+| Source model | Open source |
+| Platform | Cross-platform |
+| Certification relevance | Security+ |
+| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Last verified | 2026-10-31 |
+
+## How to get it
+
+Packages, release binaries or Docker image
+
+See the official site for current instructions — deployment steps change more often than this directory does.
+
+## Verification
+
+**Tier: upstream-documented.**
+
+- Official URL confirmed to resolve on 2026-10-31.
+- Licence and install route are as documented upstream, **not** machine-verified the way a package id can be. Check the project's own licence file before relying on it commercially.
+- Not installable through WinUtil Pro: this is not a Windows package.
+
+---
+
+[← Web Infrastructure](../10-web-infrastructure/) · [All tools](../tools/) · [All categories](../README.md)
