@@ -1,14 +1,17 @@
-# Virtualization
+# Virtualization & Storage
 
-Hypervisors and VM provisioning -- the foundation of any certification lab.
+Hypervisors, VM provisioning and NAS platforms -- the foundation of any certification lab.
 
-**2 tools.** Every entry is a Windows package whose id and licence were verified against the live winget source.
+**5 tools** — 2 package-verified, 3 upstream-documented.
 
-| Tool | What it does | Licence | Source |
+| Tool | What it does | Platform | Licence |
 |---|---|---|---|
-| **[Oracle VirtualBox](../tools/oracle-virtualbox.md)** | Oracle VirtualBox is a powerful and free open-source virtualization tool for x86 and AMD64/Intel64 architec... | `GPL-3.0-only` | Open source |
-| **[Vagrant](../tools/vagrant.md)** | Vagrant builds and manages reproducible virtual machine development environments from declarative configura... | `BUSL-1.1` | Proprietary |
+| **[OpenMediaVault](../tools/openmediavault.md)** | OpenMediaVault is a Debian-based NAS solution with a web interface and a plugin system, lighter than TrueNA... | Appliance (Debian) | `GPL-3.0` |
+| **[Oracle VirtualBox](../tools/oracle-virtualbox.md)** | Oracle VirtualBox is a powerful and free open-source virtualization tool for x86 and AMD64/Intel64 architec... | Windows (packaged) | `GPL-3.0-only` |
+| **[Proxmox VE](../tools/proxmox-ve.md)** | Proxmox VE is a bare-metal hypervisor combining KVM virtual machines and LXC containers with clustering and... | Appliance (Debian) | `AGPL-3.0` |
+| **[TrueNAS](../tools/truenas.md)** | TrueNAS is a storage operating system built on ZFS, providing NAS and SAN services with snapshots and repli... | Appliance | `BSD-3-Clause / GPL` |
+| **[Vagrant](../tools/vagrant.md)** | Vagrant builds and manages reproducible virtual machine development environments from declarative configura... | Windows (packaged) | `BUSL-1.1` |
 
 ---
 
-[All categories](../README.md) · [Certification map](../CERTIFICATION-MAP.md)
+[All tools](../tools/) · [All categories](../README.md) · [Certification map](../CERTIFICATION-MAP.md)

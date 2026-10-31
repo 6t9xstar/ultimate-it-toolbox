@@ -5,7 +5,7 @@ Find tools by what you are studying for, rather than by category.
 Each section lists what you can install today and — where the honest answer is a virtual machine, WSL or a vendor account — says so instead of pretending a package exists.
 
 > [!IMPORTANT]
-> This map covers **Windows-installable** tooling, because that is what the verified seed data covers. Several certifications are examined on Linux. Where that is the case, the entry says what the Windows side can realistically give you and what has to run in a VM.
+> Entries are one of two tiers. **Package-verified** tools install on Windows with a confirmed `winget` id. **Upstream-documented** tools are Linux, BSD, appliance or self-hosted — they have a verified official URL and a real install route, but no Windows package. Several of these certifications are examined on Linux, so both tiers matter.
 
 **Jump to:** [RHCSA](#rhcsa) · [RHCE](#rhce) · [CCNA](#ccna) · [CCNP](#ccnp) · [CompTIA](#comptia) · [Kubernetes](#kubernetes-cka-ckad-cks) · [Cloud](#cloud-aws-azure-google-cloud) · [LFCS](#lfcs) · [OSCP](#oscp-and-web-application-testing)
 
@@ -25,10 +25,18 @@ Each section lists what you can install today and — where the honest answer is
 | [Neovim](tools/neovim.md) | Practise the editor you will actually have in the exam. |
 | [Windows Terminal](tools/windows-terminal.md) · [PowerShell](tools/powershell.md) | A decent local terminal to drive it from. |
 
-**Get elsewhere:**
+**The Linux side** (upstream-documented cards):
 
-- **RHEL** — free for personal use via the [Red Hat Developer Subscription](https://developers.redhat.com/products/rhel/download). [Rocky Linux](https://rockylinux.org/) and [AlmaLinux](https://almalinux.org/) are binary-compatible and free.
-- **SELinux, LVM, systemd, firewalld, Cockpit** — these *are* the Linux OS. You practise them inside the VM. There is no Windows package and there should not be one.
+| Tool | Why it matters |
+|---|---|
+| [Red Hat Enterprise Linux](tools/red-hat-enterprise-linux.md) | The exam OS. Free for personal use via the Developer Subscription. |
+| [Rocky Linux](tools/rocky-linux.md) · [AlmaLinux](tools/almalinux.md) | Binary-compatible RHEL rebuilds, free with no subscription. |
+| [Cockpit](tools/cockpit.md) | The browser-based admin console that ships with RHEL. |
+| [OpenSCAP](tools/openscap.md) | Evaluates a host against CIS and STIG baselines; ships in RHEL. |
+| [Lynis](tools/lynis.md) | Audits Linux hardening and explains each finding. |
+| [BorgBackup](tools/borgbackup.md) | Backup practice on the Linux side. |
+
+**SELinux, LVM, systemd and firewalld** are *part of* the OS. You practise them inside the VM — there is no package to install and there should not be one.
 
 ---
 
@@ -43,9 +51,13 @@ Each section lists what you can install today and — where the honest answer is
 | [Oracle VirtualBox](tools/oracle-virtualbox.md) · [Vagrant](tools/vagrant.md) | Multi-node lab: you need several managed hosts. |
 | [VS Code](tools/vs-code.md) | Writing playbooks and roles, with YAML tooling. |
 
-**Get elsewhere:**
+**The automation side** (upstream-documented cards):
 
-- **Ansible** — Python-based and Linux-first. Run it from a control node in your lab, or from **WSL** on this machine. There is no supported native Windows control node.
+| Tool | Why it matters |
+|---|---|
+| [Ansible](tools/ansible.md) | The tool the current RHCE exam is built around. The control node is Linux-only, so run it from a lab VM or WSL. |
+| [AWX](tools/awx.md) | The upstream project behind Ansible Automation Platform's UI, API and scheduling. |
+| [Keycloak](tools/keycloak.md) | Red Hat's identity server, relevant once you move into platform work. |
 
 ---
 
@@ -53,12 +65,19 @@ Each section lists what you can install today and — where the honest answer is
 
 **Cisco Certified Network Associate.** The headline lab tools are **not packaged** for winget or Chocolatey, so they are not listed as entries here. That is a deliberate choice: an entry that installs nothing is worse than no entry.
 
-**Get elsewhere:**
+**The lab platforms** (upstream-documented cards — no winget package exists for any of them):
 
-- **Cisco Packet Tracer** — free, but only through a [Cisco Networking Academy](https://www.netacad.com/) account. No public package exists.
-- **GNS3** — [gns3.com/software/download](https://www.gns3.com/software/download); ships its own installer.
-- **EVE-NG** — a virtual appliance you import into a hypervisor.
-- **Cisco IOS images** — licensed by Cisco. Obtain them through your own entitlement or NetAcad.
+| Tool | How you get it |
+|---|---|
+| [Cisco Packet Tracer](tools/cisco-packet-tracer.md) | Free, but only through a Cisco Networking Academy account. |
+| [GNS3](tools/gns3.md) | Vendor installer. Emulates real device images, so it goes beyond a simulator. |
+| [EVE-NG](tools/eve-ng.md) | A virtual appliance you import into a hypervisor. |
+| [Containerlab](tools/containerlab.md) | Declarative topologies from containerised routing images — the automation-friendly option. |
+| [VyOS](tools/vyos.md) | A free Linux router OS; practise real routing config without vendor hardware. |
+| [MikroTik RouterOS](tools/mikrotik-routeros.md) | The Cloud Hosted Router runs free in a VM with a speed cap. |
+| [pfSense](tools/pfsense.md) · [OPNsense](tools/opnsense.md) | Real firewall, VPN and NAT practice on a VM. |
+
+**Cisco IOS images** are licensed by Cisco — obtain them through your own entitlement or NetAcad.
 
 **Install from this directory** — the parts that *are* packaged, and that you will use constantly:
 
@@ -91,7 +110,20 @@ Everything under CCNA still applies, plus automation. The network-automation sid
 | **A+** | [Sysinternals Suite](tools/sysinternals-suite.md), [HWiNFO](tools/hwinfo.md), [CPU-Z](tools/cpu-z.md), [GPU-Z](tools/gpu-z.md), [Rufus](tools/rufus-imager.md), [Ventoy](tools/ventoy.md), [WizTree](tools/wiztree.md), [BleachBit](tools/bleachbit.md), [Double Commander](tools/double-commander.md) |
 | **Network+** | [Wireshark](tools/wireshark.md), [Nmap](tools/nmap.md), [iPerf3](tools/iperf3.md), [WinMTR](tools/winmtr.md), [tftpd64](tools/tftpd64.md), [PuTTY](tools/putty.md) |
 | **Security+** | [Gpg4win](tools/gpg4win.md), [VeraCrypt](tools/veracrypt.md), [KeePassXC](tools/keepassxc.md), [Bitwarden](tools/bitwarden.md), [Malwarebytes](tools/malwarebytes.md), [Sandboxie-Plus](tools/sandboxie-plus.md), [simplewall](tools/simplewall.md), [Tenable Nessus](tools/tenable-nessus.md) |
-| **CySA+** | [Sysinternals Sysmon](tools/sysinternals-sysmon.md), [osquery](tools/osquery.md), [Velociraptor](tools/velociraptor.md), [Wazuh Agent](tools/wazuh-agent.md), [Suricata](tools/suricata.md), [YARA](tools/yara.md), [Trivy](tools/trivy.md), [Splunk Universal Forwarder](tools/splunk-universal-forwarder.md), [Winlogbeat](tools/winlogbeat.md), [Autopsy](tools/autopsy.md), [Volatility Workbench](tools/volatility-workbench.md), [HxD](tools/hxd-hex-editor.md) |
+| **CySA+** (Windows) | [Sysinternals Sysmon](tools/sysinternals-sysmon.md), [osquery](tools/osquery.md), [Velociraptor](tools/velociraptor.md), [Wazuh Agent](tools/wazuh-agent.md), [Suricata](tools/suricata.md), [YARA](tools/yara.md), [Trivy](tools/trivy.md), [Splunk Universal Forwarder](tools/splunk-universal-forwarder.md), [Winlogbeat](tools/winlogbeat.md), [Autopsy](tools/autopsy.md), [Volatility Workbench](tools/volatility-workbench.md), [HxD](tools/hxd-hex-editor.md) |
+
+### Blue-team platforms (upstream-documented)
+
+| Tool | Role |
+|---|---|
+| [Security Onion](tools/security-onion.md) | A whole network security monitoring stack in one ISO: Suricata, Zeek, Elasticsearch, Kibana. |
+| [Zeek](tools/zeek.md) | Turns traffic into structured logs rather than alerts. |
+| [Snort](tools/snort.md) | Signature-based intrusion detection and prevention. |
+| [Greenbone / OpenVAS](tools/greenbone-openvas.md) | Open-source vulnerability scanning. |
+| [TheHive](tools/thehive.md) · [MISP](tools/misp.md) | Incident response case management and threat intelligence sharing. |
+| [Volatility 3](tools/volatility-3.md) | Memory forensics (the Windows GUI in this directory wraps it). |
+| [CyberChef](tools/cyberchef.md) | Encoding, decoding and data triage in the browser. |
+| [REMnux](tools/remnux.md) | A Linux toolkit curated for malware analysis. |
 
 ---
 
@@ -108,6 +140,8 @@ The best-covered track in this directory — everything you need is packaged.
 | [Lens](tools/lens.md) | Visual cluster IDE (free for personal use). |
 | [Rancher Desktop](tools/rancher-desktop.md) · [Podman Desktop](tools/podman-desktop.md) | Local runtime with a bundled Kubernetes option. |
 | [Trivy](tools/trivy.md) | Image and manifest scanning — directly relevant to **CKS**. |
+
+**Beyond the local cluster** (upstream-documented): [Kubernetes](tools/kubernetes.md) itself, [Rancher](tools/rancher.md) for multi-cluster management, [Portainer](tools/portainer.md) for a lightweight UI, and [Prometheus](tools/prometheus.md) for the monitoring objectives.
 
 See the full [DevOps](06-devops/) category.
 
@@ -146,7 +180,22 @@ See the full [DevOps](06-devops/) category.
 | [Maltego](tools/maltego.md) | OSINT relationship mapping (Community edition needs a free account). |
 | [Oracle VirtualBox](tools/oracle-virtualbox.md) | Run Kali or Parrot OS as a VM — this is how you get the full toolset. |
 
-**Get elsewhere:** Metasploit, Ghidra, hashcat, John the Ripper, sqlmap, Nikto and Hydra have **no Windows package**. Run them inside a Kali VM or WSL — which is also how the OSCP exam environment works.
+**The Kali toolset** (upstream-documented cards — none has a Windows package):
+
+| Tool | Role |
+|---|---|
+| [Kali Linux](tools/kali-linux.md) · [Parrot Security OS](tools/parrot-security-os.md) | The distributions that bundle everything below. Run one as a VM. |
+| [Metasploit Framework](tools/metasploit-framework.md) | Exploitation and post-exploitation. |
+| [Ghidra](tools/ghidra.md) | Reverse engineering with a decompiler. Runs on Windows, but ships as an archive, not a package. |
+| [sqlmap](tools/sqlmap.md) | Automated SQL injection testing. |
+| [hashcat](tools/hashcat.md) · [John the Ripper](tools/john-the-ripper.md) | Password auditing against recovered hashes. |
+| [THC Hydra](tools/thc-hydra.md) | Network login auditing. |
+| [Nikto](tools/nikto.md) | Web server misconfiguration scanning. |
+| [Aircrack-ng](tools/aircrack-ng.md) | Wi-Fi security assessment. |
+| [Responder](tools/responder.md) · [Impacket](tools/impacket.md) | Windows and Active Directory testing. |
+| [BloodHound](tools/bloodhound.md) | Active Directory attack-path mapping — used by defenders too. |
+
+This is also how the OSCP exam environment works: a Kali VM, not a Windows host.
 
 ---
 

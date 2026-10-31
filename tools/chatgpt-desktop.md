@@ -12,7 +12,7 @@
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
-| Last verified | unverified |
+| Last verified | 2026-10-31 |
 
 ## Install on Windows
 
@@ -24,10 +24,12 @@ _No Chocolatey package is published for this tool; use winget._
 
 ## Verification
 
+**Tier: package-verified.**
+
 - Package id confirmed against the live `winget` source on n/a.
-- Licence string is copied from the package manifest, not inferred.
+- Licence string copied from the package manifest, not inferred.
 - Also installable from [WinUtil Pro](https://github.com/6t9xstar/winutil-pro)'s Install tab as `chatgpt`.
 
 ---
 
-[← Software Development](../04-development/) · [All categories](../README.md)
+[← Software Development](../04-development/) · [All tools](../tools/) · [All categories](../README.md)

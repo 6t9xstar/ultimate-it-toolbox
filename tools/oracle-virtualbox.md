@@ -6,7 +6,7 @@
 
 | Property | Value |
 |---|---|
-| Category | Virtualization |
+| Category | Virtualization & Storage |
 | Official website | <https://www.virtualbox.org/> |
 | Licence | `GPL-3.0-only` |
 | Source model | Open source |
@@ -23,10 +23,12 @@ choco install virtualbox
 
 ## Verification
 
+**Tier: package-verified.**
+
 - Package id confirmed against the live `winget` source on 2026-10-30.
-- Licence string is copied from the package manifest, not inferred.
+- Licence string copied from the package manifest, not inferred.
 - Also installable from [WinUtil Pro](https://github.com/6t9xstar/winutil-pro)'s Install tab as `OVirtualBox`.
 
 ---
 
-[← Virtualization](../09-virtualization/) · [All categories](../README.md)
+[← Virtualization & Storage](../09-virtualization/) · [All tools](../tools/) · [All categories](../README.md)
