@@ -4,6 +4,8 @@ Web browsers, including privacy-focused and developer channels.
 
 **19 tools** — 19 package-verified.
 
+Install the Windows tools below in one go with the [`category-browser-tools`](../bundles/category-browser-tools.winget.json) bundle — see [bundles](../bundles/).
+
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
 | **[Brave](../tools/brave.md)** | Brave is a privacy-focused web browser that blocks ads and trackers, offering a faster and safer browsing e... | Windows (packaged) | `MPL-2.0` |

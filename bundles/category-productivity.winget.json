@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Adobe.Acrobat.Reader.64-bit"
+        },
+        {
+          "PackageIdentifier": "Espanso.Espanso"
+        },
+        {
+          "PackageIdentifier": "Flow-Launcher.Flow-Launcher"
+        },
+        {
+          "PackageIdentifier": "Foxit.FoxitReader"
+        },
+        {
+          "PackageIdentifier": "TheDocumentFoundation.LibreOffice"
+        },
+        {
+          "PackageIdentifier": "Cyanfish.NAPS2"
+        },
+        {
+          "PackageIdentifier": "KDE.Okular"
+        },
+        {
+          "PackageIdentifier": "ONLYOFFICE.DesktopEditors"
+        },
+        {
+          "PackageIdentifier": "TrackerSoftware.PDF-XChangeEditor"
+        },
+        {
+          "PackageIdentifier": "geeksoftwareGmbH.PDF24Creator"
+        },
+        {
+          "PackageIdentifier": "PDFgear.PDFgear"
+        },
+        {
+          "PackageIdentifier": "PDFsam.PDFsam"
+        },
+        {
+          "PackageIdentifier": "pbek.QOwnNotes"
+        },
+        {
+          "PackageIdentifier": "Automattic.Simplenote"
+        },
+        {
+          "PackageIdentifier": "SumatraPDF.SumatraPDF"
+        },
+        {
+          "PackageIdentifier": "Xournal++.Xournal++"
+        },
+        {
+          "PackageIdentifier": "DigitalScholar.Zotero"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

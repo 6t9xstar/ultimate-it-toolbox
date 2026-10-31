@@ -11,6 +11,7 @@
 | Licence | `Proprietary` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
+| Certification relevance | CySA+ |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

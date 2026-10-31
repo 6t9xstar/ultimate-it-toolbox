@@ -1,0 +1,152 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "nektos.act"
+        },
+        {
+          "PackageIdentifier": "argoproj.argocd"
+        },
+        {
+          "PackageIdentifier": "Docker.DockerCompose"
+        },
+        {
+          "PackageIdentifier": "Docker.DockerDesktop"
+        },
+        {
+          "PackageIdentifier": "FluxCD.Flux"
+        },
+        {
+          "PackageIdentifier": "Gitlab.Runner"
+        },
+        {
+          "PackageIdentifier": "GrafanaLabs.Grafana.OSS"
+        },
+        {
+          "PackageIdentifier": "hadolint.hadolint"
+        },
+        {
+          "PackageIdentifier": "Hashicorp.Consul"
+        },
+        {
+          "PackageIdentifier": "Hashicorp.Nomad"
+        },
+        {
+          "PackageIdentifier": "Hashicorp.Terraform"
+        },
+        {
+          "PackageIdentifier": "Hashicorp.Vault"
+        },
+        {
+          "PackageIdentifier": "Helm.Helm"
+        },
+        {
+          "PackageIdentifier": "Infracost.Infracost"
+        },
+        {
+          "PackageIdentifier": "Jellyfin.JellyfinMediaPlayer"
+        },
+        {
+          "PackageIdentifier": "Jellyfin.Server"
+        },
+        {
+          "PackageIdentifier": "k3d.k3d"
+        },
+        {
+          "PackageIdentifier": "Derailed.k9s"
+        },
+        {
+          "PackageIdentifier": "Kubernetes.kind"
+        },
+        {
+          "PackageIdentifier": "XBMCFoundation.Kodi"
+        },
+        {
+          "PackageIdentifier": "ahmetb.kubectx"
+        },
+        {
+          "PackageIdentifier": "Kubernetes.kubectl"
+        },
+        {
+          "PackageIdentifier": "Kubernetes.kustomize"
+        },
+        {
+          "PackageIdentifier": "Mirantis.Lens"
+        },
+        {
+          "PackageIdentifier": "LocalSend.LocalSend"
+        },
+        {
+          "PackageIdentifier": "Kubernetes.minikube"
+        },
+        {
+          "PackageIdentifier": "MoonlightGameStreamingProject.Moonlight"
+        },
+        {
+          "PackageIdentifier": "Netbird.Netbird"
+        },
+        {
+          "PackageIdentifier": "Netdata.Netdata"
+        },
+        {
+          "PackageIdentifier": "Nextcloud.NextcloudDesktop"
+        },
+        {
+          "PackageIdentifier": "RedHat.OpenShift-Client"
+        },
+        {
+          "PackageIdentifier": "OpenTofu.Tofu"
+        },
+        {
+          "PackageIdentifier": "Plex.Plex"
+        },
+        {
+          "PackageIdentifier": "Plex.PlexMediaServer"
+        },
+        {
+          "PackageIdentifier": "RedHat.Podman"
+        },
+        {
+          "PackageIdentifier": "RedHat.Podman-Desktop"
+        },
+        {
+          "PackageIdentifier": "Pulumi.Pulumi"
+        },
+        {
+          "PackageIdentifier": "SUSE.RancherDesktop"
+        },
+        {
+          "PackageIdentifier": "Google.ContainerTools.Skaffold"
+        },
+        {
+          "PackageIdentifier": "stern.stern"
+        },
+        {
+          "PackageIdentifier": "LizardByte.Sunshine"
+        },
+        {
+          "PackageIdentifier": "Syncthing.Syncthing"
+        },
+        {
+          "PackageIdentifier": "GermanCoding.SyncTrayzor"
+        },
+        {
+          "PackageIdentifier": "Task.Task"
+        },
+        {
+          "PackageIdentifier": "Gruntwork.Terragrunt"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

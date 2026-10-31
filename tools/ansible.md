@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | DevOps, Containers & IaC |
-| Official website | <https://www.ansible.com/> |
+| Official website | <https://www.redhat.com/en/ansible-collaborative> |
 | Licence | `GPL-3.0` |
 | Source model | Open source |
 | Platform | Linux / WSL |

@@ -1,0 +1,81 @@
+name: Suggest a tool
+description: Propose a tool that is not in the directory yet.
+labels: ["new tool"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search [tools/](https://github.com/6t9xstar/ultimate-it-toolbox/tree/main/tools) first: every tool has exactly one card.
+        The bar is **verify it, or do not add it** — see CONTRIBUTING.md.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+      description: As the publisher writes it.
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      description: The publisher's own site, not a download aggregator or mirror.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: winget
+    attributes:
+      label: winget id (Windows tools)
+      description: Paste the id only after `winget show --id <id> --exact` resolves it. Leave empty for Linux, appliance or self-hosted tools.
+      placeholder: Publisher.Package
+  - type: input
+    id: install
+    attributes:
+      label: Install route (non-Windows tools)
+      description: The real route — dnf/apt package, Docker image, ISO, Helm chart, pip/npm package.
+  - type: input
+    id: licence
+    attributes:
+      label: Licence
+      description: The actual licence string (from the manifest or the project's licence file), not "free" or "open source".
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - 01 Operating Systems & System Administration
+        - 02 Networking
+        - 03 Cybersecurity
+        - 04 Software Development
+        - 05 Cloud Computing
+        - 06 DevOps, Containers & IaC
+        - 07 Databases & Data Engineering
+        - 08 AI, Machine Learning & Data Science
+        - 09 Virtualization & Storage
+        - 10 Web Infrastructure
+        - 11 Quality Assurance & Testing
+        - 12 Hardware, IoT & Electronics
+        - 13 Design & Engineering
+        - 14 Browsers
+        - 15 Communication
+        - 16 Productivity & Office
+        - 17 File Management
+        - 18 Backup & Recovery
+        - 19 Remote Access
+        - 20 Terminal & CLI
+        - 21 Documentation & Knowledge
+        - 22 SEO & Marketing
+        - 23 Privacy & Personal Security
+        - 24 Project Management
+        - 27 Gaming
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What it does, in one sentence
+      description: Your own words. Say what it does, not why it is amazing.
+    validations:
+      required: true

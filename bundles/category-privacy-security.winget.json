@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "FiloSottile.age"
+        },
+        {
+          "PackageIdentifier": "Bitwarden.Bitwarden"
+        },
+        {
+          "PackageIdentifier": "Cryptomator.Cryptomator"
+        },
+        {
+          "PackageIdentifier": "GnuPG.Gpg4win"
+        },
+        {
+          "PackageIdentifier": "DominikReichl.KeePass"
+        },
+        {
+          "PackageIdentifier": "KeePassXCTeam.KeePassXC"
+        },
+        {
+          "PackageIdentifier": "Mozilla.VPN"
+        },
+        {
+          "PackageIdentifier": "MullvadVPN.MullvadVPN"
+        },
+        {
+          "PackageIdentifier": "OO-Software.ShutUp10"
+        },
+        {
+          "PackageIdentifier": "OpenVPNTechnologies.OpenVPNConnect"
+        },
+        {
+          "PackageIdentifier": "Safing.Portmaster"
+        },
+        {
+          "PackageIdentifier": "Proton.ProtonVPN"
+        },
+        {
+          "PackageIdentifier": "Session.Session"
+        },
+        {
+          "PackageIdentifier": "Tailscale.Tailscale"
+        },
+        {
+          "PackageIdentifier": "IDRIX.VeraCrypt"
+        },
+        {
+          "PackageIdentifier": "WireGuard.WireGuard"
+        },
+        {
+          "PackageIdentifier": "Yubico.Authenticator"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

@@ -2,7 +2,9 @@
 
 File managers, archivers, search, synchronisation and transfer.
 
-**19 tools** — 19 package-verified.
+**21 tools** — 19 package-verified, 2 upstream-documented.
+
+Install the Windows tools below in one go with the [`category-file-management`](../bundles/category-file-management.winget.json) bundle — see [bundles](../bundles/).
 
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
@@ -20,8 +22,10 @@ File managers, archivers, search, synchronisation and transfer.
 | **[Motrix](../tools/motrix.md)** | Motrix is a graphical download manager built on aria2, handling HTTP, FTP, BitTorrent, and Magnet links wit... | Windows (packaged) | `MIT` |
 | **[MSEdgeRedirect](../tools/msedgeredirect.md)** | A Tool to Redirect News, Search, Widgets, Weather, and More to your default browser | Windows (packaged) | `LGPL-3.0` |
 | **[NanaZip](../tools/nanazip.md)** | NanaZip is a fast and efficient file compression and decompression tool | Windows (packaged) | `MIT` |
+| **[Nextcloud Server](../tools/nextcloud-server.md)** | Nextcloud Server is a self-hosted file sync and share platform with calendars, contacts and office integrat... | Self-hosted | `AGPL-3.0` |
 | **[PeaZip](../tools/peazip.md)** | PeaZip is a free, open-source file archiver utility that supports multiple archive formats and provides enc... | Windows (packaged) | `LGPL-3.0` |
 | **[Rclone](../tools/rclone.md)** | Rclone syncs files and directories to and from more than 70 cloud storage providers from the command line,... | Windows (packaged) | `MIT` |
+| **[Seafile](../tools/seafile.md)** | Seafile is a self-hosted file sync and share server known for fast sync of large libraries, with optional c... | Self-hosted | `AGPL-3.0 (Community Edition)` |
 | **[SignalRGB](../tools/signalrgb.md)** | SignalRGB lets you control and sync your favorite RGB devices with one free application | Windows (packaged) | `Proprietary` |
 | **[Total Commander](../tools/total-commander.md)** | Total Commander is a file manager for Windows that provides a powerful and intuitive interface for file man... | Windows (packaged) | `Shareware` |
 | **[WinRAR](../tools/winrar.md)** | WinRAR is a powerful archive manager that allows you to create, manage, and extract compressed files | Windows (packaged) | `Proprietary` |

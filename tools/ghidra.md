@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Cybersecurity |
-| Official website | <https://ghidra-sre.org/> |
+| Official website | <https://github.com/NationalSecurityAgency/ghidra> |
 | Licence | `Apache-2.0` |
 | Source model | Open source |
 | Platform | Windows / Linux / macOS (Java) |

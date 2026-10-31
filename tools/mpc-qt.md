@@ -1,6 +1,6 @@
 # mpc-qt
 
-> Media Player Classic Qute Theater
+> mpc-qt is a Qt media player that recreates the Media Player Classic interface on top of the mpv playback engine.
 
 ## Overview
 

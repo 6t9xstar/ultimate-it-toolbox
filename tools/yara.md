@@ -11,6 +11,7 @@
 | Licence | `BSD-3-Clause` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
+| Certification relevance | CySA+ |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

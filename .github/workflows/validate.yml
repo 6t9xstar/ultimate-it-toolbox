@@ -1,0 +1,26 @@
+name: Validate
+
+# Every pull request must leave the data valid, the generated files in sync
+# with the data, and every relative link resolving.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check data files
+        run: python3 .build/validate.py
+
+      - name: Check generated files are up to date
+        run: python3 .build/generate.py --check
+
+      - name: Check links and anchors
+        run: python3 .build/checklinks.py .

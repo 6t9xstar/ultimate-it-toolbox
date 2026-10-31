@@ -4,6 +4,8 @@ UI/UX, graphics, video, 3D, CAD and GIS.
 
 **35 tools** — 35 package-verified.
 
+Install the Windows tools below in one go with the [`category-design-engineering`](../bundles/category-design-engineering.winget.json) bundle — see [bundles](../bundles/).
+
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
 | **[AIMP (Music Player)](../tools/aimp-music-player.md)** | AIMP is a feature-rich music player with support for various audio formats, playlists, and customizable use... | Windows (packaged) | `Proprietary` |
@@ -32,7 +34,7 @@ UI/UX, graphics, video, 3D, CAD and GIS.
 | **[LibreCAD](../tools/librecad.md)** | LibreCAD is a free, open-source 2D CAD application for technical drawings and plans, reading and writing DX... | Windows (packaged) | `GPL-2.0` |
 | **[Lunacy](../tools/lunacy.md)** | Lunacy is a free, offline graphic-design app by Icons8 for UI and web design, compatible with Sketch files... | Windows (packaged) | `Proprietary` |
 | **[Media Player Classic - Home Cinema](../tools/media-player-classic-home-cinema.md)** | Media Player Classic - Home Cinema (MPC-HC) is a free and open-source video and audio player for Windows | Windows (packaged) | `GPL-3.0` |
-| **[mpc-qt](../tools/mpc-qt.md)** | Media Player Classic Qute Theater | Windows (packaged) | `GPL-2.0` |
+| **[mpc-qt](../tools/mpc-qt.md)** | mpc-qt is a Qt media player that recreates the Media Player Classic interface on top of the mpv playback en... | Windows (packaged) | `GPL-2.0` |
 | **[mpv](../tools/mpv.md)** | mpv is a free, open source, and cross-platform media player supporting a wide variety of media formats, cod... | Windows (packaged) | `GPL-2.0-or-later` |
 | **[nomacs](../tools/nomacs.md)** | nomacs is a free, open-source image viewer, which supports multiple platforms | Windows (packaged) | `GPL-3.0` |
 | **[OBS Studio](../tools/obs-studio.md)** | OBS Studio is a free and open-source software for video recording and live streaming | Windows (packaged) | `GPL-2.0` |

@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Software Development |
-| Official website | <https://developers.openai.com/codex/cli> |
+| Official website | <https://learn.chatgpt.com/docs/codex/cli> |
 | Licence | `Apache-2.0` |
 | Source model | Open source |
 | Platform | Windows (packaged) |

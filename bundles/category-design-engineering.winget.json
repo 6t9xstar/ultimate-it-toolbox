@@ -1,0 +1,122 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "AIMP.AIMP"
+        },
+        {
+          "PackageIdentifier": "Audacity.Audacity"
+        },
+        {
+          "PackageIdentifier": "BlenderFoundation.Blender"
+        },
+        {
+          "PackageIdentifier": "calibre.calibre"
+        },
+        {
+          "PackageIdentifier": "File-New-Project.EarTrumpet"
+        },
+        {
+          "PackageIdentifier": "Gyan.FFmpeg"
+        },
+        {
+          "PackageIdentifier": "Figma.Figma"
+        },
+        {
+          "PackageIdentifier": "AdrienAllard.FileConverter"
+        },
+        {
+          "PackageIdentifier": "Flameshot.Flameshot"
+        },
+        {
+          "PackageIdentifier": "FontForge.FontForge"
+        },
+        {
+          "PackageIdentifier": "PeterPawlowski.foobar2000"
+        },
+        {
+          "PackageIdentifier": "FreeCAD.FreeCAD"
+        },
+        {
+          "PackageIdentifier": "GIMP.GIMP.3"
+        },
+        {
+          "PackageIdentifier": "Greenshot.Greenshot"
+        },
+        {
+          "PackageIdentifier": "HandBrake.HandBrake"
+        },
+        {
+          "PackageIdentifier": "DuongDieuPhap.ImageGlass"
+        },
+        {
+          "PackageIdentifier": "ImageMagick.ImageMagick"
+        },
+        {
+          "PackageIdentifier": "Inkscape.Inkscape"
+        },
+        {
+          "PackageIdentifier": "IrfanSkiljan.IrfanView"
+        },
+        {
+          "PackageIdentifier": "Apple.iTunes"
+        },
+        {
+          "PackageIdentifier": "CodecGuide.K-LiteCodecPack.Standard"
+        },
+        {
+          "PackageIdentifier": "KDE.Kdenlive"
+        },
+        {
+          "PackageIdentifier": "KDE.Krita"
+        },
+        {
+          "PackageIdentifier": "LibreCAD.LibreCAD"
+        },
+        {
+          "PackageIdentifier": "Icons8.Lunacy"
+        },
+        {
+          "PackageIdentifier": "clsid2.mpc-hc"
+        },
+        {
+          "PackageIdentifier": "mpc-qt.mpc-qt"
+        },
+        {
+          "PackageIdentifier": "shinchiro.mpv"
+        },
+        {
+          "PackageIdentifier": "nomacs.nomacs"
+        },
+        {
+          "PackageIdentifier": "OBSProject.OBSStudio"
+        },
+        {
+          "PackageIdentifier": "dotPDN.PaintDotNet"
+        },
+        {
+          "PackageIdentifier": "OSGeo.QGIS"
+        },
+        {
+          "PackageIdentifier": "ShareX.ShareX"
+        },
+        {
+          "PackageIdentifier": "Meltytech.Shotcut"
+        },
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

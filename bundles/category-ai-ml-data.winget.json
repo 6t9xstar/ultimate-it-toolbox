@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Anaconda.Anaconda3"
+        },
+        {
+          "PackageIdentifier": "nomic.gpt4all"
+        },
+        {
+          "PackageIdentifier": "Jan.Jan"
+        },
+        {
+          "PackageIdentifier": "Julialang.Julia"
+        },
+        {
+          "PackageIdentifier": "ProjectJupyter.JupyterLab"
+        },
+        {
+          "PackageIdentifier": "ggml.llamacpp"
+        },
+        {
+          "PackageIdentifier": "ElementLabs.LMStudio"
+        },
+        {
+          "PackageIdentifier": "Anaconda.Miniconda3"
+        },
+        {
+          "PackageIdentifier": "LutzRoeder.Netron"
+        },
+        {
+          "PackageIdentifier": "Ollama.Ollama"
+        },
+        {
+          "PackageIdentifier": "Posit.Positron"
+        },
+        {
+          "PackageIdentifier": "RProject.R"
+        },
+        {
+          "PackageIdentifier": "Posit.RStudio"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

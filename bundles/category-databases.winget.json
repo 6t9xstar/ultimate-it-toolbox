@@ -1,0 +1,95 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.Azure.DataStudio"
+        },
+        {
+          "PackageIdentifier": "beekeeper-studio.beekeeper-studio"
+        },
+        {
+          "PackageIdentifier": "JetBrains.DataGrip"
+        },
+        {
+          "PackageIdentifier": "DBBrowserForSQLite.DBBrowserForSQLite"
+        },
+        {
+          "PackageIdentifier": "DBeaver.DBeaver.Community"
+        },
+        {
+          "PackageIdentifier": "JanProchazka.dbgate"
+        },
+        {
+          "PackageIdentifier": "DuckDB.cli"
+        },
+        {
+          "PackageIdentifier": "HeidiSQL.HeidiSQL"
+        },
+        {
+          "PackageIdentifier": "MariaDB.Server"
+        },
+        {
+          "PackageIdentifier": "Memurai.MemuraiDeveloper"
+        },
+        {
+          "PackageIdentifier": "MongoDB.Server"
+        },
+        {
+          "PackageIdentifier": "MongoDB.Compass.Full"
+        },
+        {
+          "PackageIdentifier": "MongoDB.Shell"
+        },
+        {
+          "PackageIdentifier": "Oracle.MySQL"
+        },
+        {
+          "PackageIdentifier": "Oracle.MySQLWorkbench"
+        },
+        {
+          "PackageIdentifier": "Neo4j.Neo4jDesktop"
+        },
+        {
+          "PackageIdentifier": "PostgreSQL.pgAdmin"
+        },
+        {
+          "PackageIdentifier": "PostgreSQL.PostgreSQL.17"
+        },
+        {
+          "PackageIdentifier": "Redis.Redis"
+        },
+        {
+          "PackageIdentifier": "RedisInsight.RedisInsight"
+        },
+        {
+          "PackageIdentifier": "Microsoft.SQLServer.2022.Developer"
+        },
+        {
+          "PackageIdentifier": "Microsoft.SQLServer.2022.Express"
+        },
+        {
+          "PackageIdentifier": "Microsoft.SQLServerManagementStudio"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sqlcmd"
+        },
+        {
+          "PackageIdentifier": "SQLite.SQLite"
+        },
+        {
+          "PackageIdentifier": "TablePlus.TablePlus"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

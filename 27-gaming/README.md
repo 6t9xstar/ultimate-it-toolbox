@@ -4,9 +4,11 @@ Game launchers, streaming and gaming utilities. (Extends the base taxonomy.)
 
 **17 tools** — 17 package-verified.
 
+Install the Windows tools below in one go with the [`category-gaming`](../bundles/category-gaming.winget.json) bundle — see [bundles](../bundles/).
+
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
-| **[Battle.net](../tools/battle-net.md)** | Battle.net is a launcher for games created and developed by Activision Blizzard | Windows (packaged) | `Proprietary` |
+| **[Battle.net](../tools/battle-net.md)** | Battle.net is Blizzard's launcher for installing, updating and running its games, with friends list and chat | Windows (packaged) | `Proprietary` |
 | **[Cemu](../tools/cemu.md)** | Cemu is a highly experimental software to emulate Wii U applications on PC | Windows (packaged) | `MPL-2.0` |
 | **[CurseForge](../tools/curseforge.md)** | CurseForge is a desktop application for managing mods and modpacks across multiple games, powered by Overwolf | Windows (packaged) | `Proprietary` |
 | **[EA App](../tools/ea-app.md)** | EA App is a platform for accessing and playing Electronic Arts games | Windows (packaged) | `Proprietary` |

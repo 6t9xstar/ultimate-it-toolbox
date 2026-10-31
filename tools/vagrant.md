@@ -11,6 +11,7 @@
 | Licence | `BUSL-1.1` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
+| Certification relevance | RHCSA, RHCE, LFCS |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

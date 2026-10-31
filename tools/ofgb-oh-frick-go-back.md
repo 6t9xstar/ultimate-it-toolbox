@@ -1,6 +1,6 @@
 # OFGB (Oh Frick Go Back)
 
-> GUI Tool to remove ads from various places around Windows 11
+> OFGB is a small GUI tool that turns off the advertising and suggestions built into various parts of Windows 11.
 
 ## Overview
 

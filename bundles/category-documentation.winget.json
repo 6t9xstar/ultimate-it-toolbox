@@ -1,0 +1,71 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "AnyAssociation.Anytype"
+        },
+        {
+          "PackageIdentifier": "AppFlowy.AppFlowy"
+        },
+        {
+          "PackageIdentifier": "DimitriVanHeesch.Doxygen"
+        },
+        {
+          "PackageIdentifier": "JGraph.Draw"
+        },
+        {
+          "PackageIdentifier": "Joplin.Joplin"
+        },
+        {
+          "PackageIdentifier": "Logseq.Logseq"
+        },
+        {
+          "PackageIdentifier": "MarkText.MarkText"
+        },
+        {
+          "PackageIdentifier": "MiKTeX.MiKTeX"
+        },
+        {
+          "PackageIdentifier": "Notion.Notion"
+        },
+        {
+          "PackageIdentifier": "Obsidian.Obsidian"
+        },
+        {
+          "PackageIdentifier": "JohnMacFarlane.Pandoc"
+        },
+        {
+          "PackageIdentifier": "Posit.Quarto"
+        },
+        {
+          "PackageIdentifier": "B3log.SiYuan"
+        },
+        {
+          "PackageIdentifier": "StandardNotes.StandardNotes"
+        },
+        {
+          "PackageIdentifier": "TeXstudio.TeXstudio"
+        },
+        {
+          "PackageIdentifier": "TriliumNext.Notes"
+        },
+        {
+          "PackageIdentifier": "appmakes.Typora"
+        },
+        {
+          "PackageIdentifier": "Zettlr.Zettlr"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

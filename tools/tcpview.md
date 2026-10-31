@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Operating Systems & System Administration |
-| Official website | <https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview> |
+| Official website | <https://learn.microsoft.com/en-us/sysinternals/downloads/tcpview> |
 | Licence | `Proprietary` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |

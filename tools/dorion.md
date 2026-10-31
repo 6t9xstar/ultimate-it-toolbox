@@ -1,6 +1,6 @@
 # Dorion
 
-> Tiny alternative Discord client with a smaller footprint, snappier startup, themes, plugins and more!
+> Dorion is a lightweight alternative Discord client with a smaller footprint, faster start-up, themes and plugins.
 
 ## Overview
 

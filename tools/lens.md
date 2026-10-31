@@ -7,10 +7,11 @@
 | Property | Value |
 |---|---|
 | Category | DevOps, Containers & IaC |
-| Official website | <https://k8slens.dev/> |
+| Official website | <https://lenshq.io/> |
 | Licence | `Proprietary` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
+| Certification relevance | CKA/CKAD/CKS |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
 | Last verified | 2026-10-30 |
 

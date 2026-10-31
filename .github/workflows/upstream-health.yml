@@ -1,0 +1,37 @@
+name: Upstream health
+
+# Weekly: are the package ids and official websites in the data still real?
+# Upstreams get renamed, removed or let their domains expire; this is how the
+# directory finds out before a reader does.
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  winget-ids:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch the winget-pkgs tree (no file contents)
+        run: git clone --depth 1 --filter=blob:none --no-checkout https://github.com/microsoft/winget-pkgs.git "$RUNNER_TEMP/winget-pkgs"
+
+      - name: Check every winget id still exists
+        run: |
+          set -o pipefail
+          python3 .build/checkwinget.py "$RUNNER_TEMP/winget-pkgs" | tee -a "$GITHUB_STEP_SUMMARY"
+
+  urls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every official website still resolves
+        run: |
+          set -o pipefail
+          python3 .build/checkurls.py | tee report.txt
+          { echo '```'; cat report.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

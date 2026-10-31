@@ -1,0 +1,182 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.10"
+        },
+        {
+          "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
+        },
+        {
+          "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.8"
+        },
+        {
+          "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.9"
+        },
+        {
+          "PackageIdentifier": "AgileBits.1Password"
+        },
+        {
+          "PackageIdentifier": "AutoHotkey.AutoHotkey"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.Autoruns"
+        },
+        {
+          "PackageIdentifier": "BleachBit.BleachBit"
+        },
+        {
+          "PackageIdentifier": "Blur009.BlurAutoClicker"
+        },
+        {
+          "PackageIdentifier": "Klocman.BulkCrapUninstaller"
+        },
+        {
+          "PackageIdentifier": "Cloudflare.Warp"
+        },
+        {
+          "PackageIdentifier": "Deskflow.Deskflow"
+        },
+        {
+          "PackageIdentifier": "CodingWondersSoftware.DISMTools.Stable"
+        },
+        {
+          "PackageIdentifier": "ente-io.auth-desktop"
+        },
+        {
+          "PackageIdentifier": "flux.flux"
+        },
+        {
+          "PackageIdentifier": "FilesCommunity.Files"
+        },
+        {
+          "PackageIdentifier": "glzr-io.glazewm"
+        },
+        {
+          "PackageIdentifier": "WerWolv.ImHex"
+        },
+        {
+          "PackageIdentifier": "MiniTool.PartitionWizard.Free"
+        },
+        {
+          "PackageIdentifier": "Nilesoft.Shell"
+        },
+        {
+          "PackageIdentifier": "Nlitesoft.NTLite"
+        },
+        {
+          "PackageIdentifier": "Microsoft.NuGet"
+        },
+        {
+          "PackageIdentifier": "TechPowerUp.NVCleanstall"
+        },
+        {
+          "PackageIdentifier": "NVAccess.NVDA"
+        },
+        {
+          "PackageIdentifier": "xM4ddy.OFGB"
+        },
+        {
+          "PackageIdentifier": "Microsoft.OneDrive"
+        },
+        {
+          "PackageIdentifier": "OPAutoClicker.OPAutoClicker"
+        },
+        {
+          "PackageIdentifier": "OpenRGB.OpenRGB"
+        },
+        {
+          "PackageIdentifier": "Parsec.Parsec"
+        },
+        {
+          "PackageIdentifier": "Fleex255.PolicyPlus"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerToys"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.ProcessExplorer"
+        },
+        {
+          "PackageIdentifier": "BitSum.ProcessLasso"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.ProcessMonitor"
+        },
+        {
+          "PackageIdentifier": "Proton.ProtonDrive"
+        },
+        {
+          "PackageIdentifier": "Proton.ProtonPass"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.PsTools"
+        },
+        {
+          "PackageIdentifier": "qBittorrent.qBittorrent"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.RDCMan"
+        },
+        {
+          "PackageIdentifier": "RevoUninstaller.RevoUninstaller"
+        },
+        {
+          "PackageIdentifier": "GlennDelahoy.SnappyDriverInstallerOrigin"
+        },
+        {
+          "PackageIdentifier": "StartIsBack.StartAllBack"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.Suite"
+        },
+        {
+          "PackageIdentifier": "WinsiderSS.SystemInformer"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Sysinternals.TCPView"
+        },
+        {
+          "PackageIdentifier": "TeamViewer.TeamViewer"
+        },
+        {
+          "PackageIdentifier": "GlavSoft.TightVNC"
+        },
+        {
+          "PackageIdentifier": "CharlesMilette.TranslucentTB"
+        },
+        {
+          "PackageIdentifier": "JAMSoftware.TreeSize.Free"
+        },
+        {
+          "PackageIdentifier": "Devolutions.UniGetUI"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2015+.x86"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+        },
+        {
+          "PackageIdentifier": "WiseCleaner.WiseProgramUninstaller"
+        },
+        {
+          "PackageIdentifier": "AntibodySoftware.WizFile"
+        },
+        {
+          "PackageIdentifier": "AntibodySoftware.WizTree"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

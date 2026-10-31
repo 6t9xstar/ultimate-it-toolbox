@@ -2,10 +2,13 @@
 
 Planning, issue tracking and collaboration -- all self-hosted.
 
-**6 tools** — 6 upstream-documented.
+**9 tools** — 9 upstream-documented.
 
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
+| **[Huly](../tools/huly.md)** | Huly is an all-in-one project platform combining issue tracking, documents, chat and a team planner, with a... | Self-hosted (Docker) | `EPL-2.0` |
+| **[Kanboard](../tools/kanboard.md)** | Kanboard is a minimalist self-hosted Kanban board with swimlanes, automatic actions and plugins | Self-hosted (PHP) | `MIT` |
+| **[Leantime](../tools/leantime.md)** | Leantime is a self-hosted project-management system aimed at non-specialists, combining tasks, goals, times... | Self-hosted (PHP) | `AGPL-3.0` |
 | **[OpenProject](../tools/openproject.md)** | OpenProject is a self-hosted project management suite with work packages, Gantt charts, agile boards and ti... | Self-hosted | `GPL-3.0 (Community)` |
 | **[Plane](../tools/plane.md)** | Plane is an open-source project planning tool covering issues, cycles and modules, positioned as a Jira alt... | Self-hosted (Docker) | `AGPL-3.0` |
 | **[Redmine](../tools/redmine.md)** | Redmine is a long-established issue tracker and project management application with per-project wikis and f... | Self-hosted (Ruby) | `GPL-2.0` |

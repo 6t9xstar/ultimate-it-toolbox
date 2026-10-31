@@ -1,0 +1,4 @@
+{
+ "redis-windows-port": {"label": "Deprecated", "reason": "Microsoft archived this port, which is frozen at Redis 3.x. Run Redis under WSL, or use Memurai or Valkey instead.", "evidence": "https://github.com/microsoftarchive/redis"},
+ "net-desktop-runtime-6": {"label": "Deprecated", "reason": ".NET 6 reached end of support on 12 November 2024 and no longer receives security fixes. Install it only for an app that still requires it.", "evidence": "https://dotnet.microsoft.com/platform/support/policy/dotnet-core"}
+}

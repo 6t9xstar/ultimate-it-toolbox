@@ -1,6 +1,6 @@
 # PDF24 Creator
 
-> Free and easy-to-use online/desktop PDF tools that make you more productive
+> PDF24 Creator is a free Windows PDF toolbox for creating, merging, splitting, compressing and converting PDFs, including a virtual PDF printer.
 
 ## Overview
 

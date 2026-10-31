@@ -1,6 +1,6 @@
 # Battle.net
 
-> Battle.net is a launcher for games created and developed by Activision Blizzard
+> Battle.net is Blizzard's launcher for installing, updating and running its games, with friends list and chat.
 
 ## Overview
 

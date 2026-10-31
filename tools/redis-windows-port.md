@@ -11,7 +11,7 @@
 | Licence | `BSD-3-Clause` |
 | Source model | Open source |
 | Platform | Windows (packaged) |
-| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Rating | **Deprecated** — Microsoft archived this port, which is frozen at Redis 3.x. Run Redis under WSL, or use Memurai or Valkey instead. ([evidence](https://github.com/microsoftarchive/redis)) |
 | Last verified | 2026-10-30 |
 
 ## Install on Windows

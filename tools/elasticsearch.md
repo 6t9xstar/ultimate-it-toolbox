@@ -8,8 +8,8 @@
 |---|---|
 | Category | DevOps, Containers & IaC |
 | Official website | <https://www.elastic.co/elasticsearch> |
-| Licence | `Elastic-2.0 / SSPL` |
-| Source model | Mixed |
+| Licence | `AGPL-3.0 / SSPL-1.0 / Elastic-2.0 (your choice, since 8.16)` |
+| Source model | Open source |
 | Platform | Self-hosted |
 | Certification relevance | CySA+ |
 | Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |

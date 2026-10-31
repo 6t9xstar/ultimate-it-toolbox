@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-10-31T00:00:00.000-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "Blizzard.BattleNet"
+        },
+        {
+          "PackageIdentifier": "Cemu.Cemu"
+        },
+        {
+          "PackageIdentifier": "Overwolf.CurseForge"
+        },
+        {
+          "PackageIdentifier": "ElectronicArts.EADesktop"
+        },
+        {
+          "PackageIdentifier": "ES-DE.EmulationStation-DE"
+        },
+        {
+          "PackageIdentifier": "EpicGames.EpicGamesLauncher"
+        },
+        {
+          "PackageIdentifier": "Nvidia.GeForceNow"
+        },
+        {
+          "PackageIdentifier": "GOG.Galaxy"
+        },
+        {
+          "PackageIdentifier": "HeroicGamesLauncher.HeroicGamesLauncher"
+        },
+        {
+          "PackageIdentifier": "ItchIo.Itch"
+        },
+        {
+          "PackageIdentifier": "Modrinth.ModrinthApp"
+        },
+        {
+          "PackageIdentifier": "Playnite.Playnite"
+        },
+        {
+          "PackageIdentifier": "PrismLauncher.PrismLauncher"
+        },
+        {
+          "PackageIdentifier": "Roblox.Roblox"
+        },
+        {
+          "PackageIdentifier": "Valve.Steam"
+        },
+        {
+          "PackageIdentifier": "Ubisoft.Connect"
+        },
+        {
+          "PackageIdentifier": "VirtualDesktop.Streamer"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.9.0"
+}

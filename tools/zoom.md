@@ -7,7 +7,7 @@
 | Property | Value |
 |---|---|
 | Category | Communication |
-| Official website | <https://zoom.us/> |
+| Official website | <https://www.zoom.com/> |
 | Licence | `Proprietary` |
 | Source model | Proprietary |
 | Platform | Windows (packaged) |
