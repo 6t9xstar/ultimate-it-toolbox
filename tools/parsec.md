@@ -1,0 +1,32 @@
+# Parsec
+
+> Parsec is a low-latency, high-quality remote desktop sharing application for collaborating and gaming across devices.
+
+## Overview
+
+| Property | Value |
+|---|---|
+| Category | Operating Systems & System Administration |
+| Official website | <https://parsec.app/> |
+| Licence | `Proprietary` |
+| Source model | Proprietary |
+| Platform | Windows (packaged) |
+| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Last verified | 2026-10-30 |
+
+## Install on Windows
+
+```powershell
+winget install --id Parsec.Parsec --exact
+choco install parsec
+```
+
+## Verification
+
+- Package id confirmed against the live `winget` source on 2026-10-30.
+- Licence string is copied from the package manifest, not inferred.
+- Also installable from [WinUtil Pro](https://github.com/6t9xstar/winutil-pro)'s Install tab as `parsec`.
+
+---
+
+[← Operating Systems & System Administration](../01-operating-systems/) · [All categories](../README.md)

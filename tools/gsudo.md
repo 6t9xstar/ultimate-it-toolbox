@@ -1,0 +1,32 @@
+# gsudo
+
+> gsudo is a sudo equivalent for Windows. It allows you to run commands with elevated administrative privileges directly within the current console window.
+
+## Overview
+
+| Property | Value |
+|---|---|
+| Category | Terminal & CLI |
+| Official website | <https://github.com/gerardog/gsudo> |
+| Licence | `MIT` |
+| Source model | Open source |
+| Platform | Windows (packaged) |
+| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Last verified | 2026-10-30 |
+
+## Install on Windows
+
+```powershell
+winget install --id gerardog.gsudo --exact
+choco install gsudo
+```
+
+## Verification
+
+- Package id confirmed against the live `winget` source on 2026-10-30.
+- Licence string is copied from the package manifest, not inferred.
+- Also installable from [WinUtil Pro](https://github.com/6t9xstar/winutil-pro)'s Install tab as `gsudo`.
+
+---
+
+[← Terminal & CLI](../20-terminal-cli/) · [All categories](../README.md)

@@ -1,0 +1,32 @@
+# Betterbird
+
+> Betterbird is a fork of Mozilla Thunderbird with additional features and bugfixes.
+
+## Overview
+
+| Property | Value |
+|---|---|
+| Category | Communication |
+| Official website | <https://www.betterbird.eu/> |
+| Licence | `MPL-2.0` |
+| Source model | Open source |
+| Platform | Windows (packaged) |
+| Rating | Not yet rated — see [RATINGS.md](../RATINGS.md) |
+| Last verified | 2026-10-30 |
+
+## Install on Windows
+
+```powershell
+winget install --id Betterbird.Betterbird --exact
+choco install betterbird
+```
+
+## Verification
+
+- Package id confirmed against the live `winget` source on 2026-10-30.
+- Licence string is copied from the package manifest, not inferred.
+- Also installable from [WinUtil Pro](https://github.com/6t9xstar/winutil-pro)'s Install tab as `betterbird`.
+
+---
+
+[← Communication](../15-communication/) · [All categories](../README.md)
