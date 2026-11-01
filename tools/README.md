@@ -1,6 +1,6 @@
 # All Tools
 
-Every tool has exactly one canonical card here, linked from whichever categories apply. **759 tools** — 512 package-verified, 247 upstream-documented (see [the README](../README.md#how-entries-are-verified)).
+Every tool has exactly one canonical card here, linked from whichever categories apply. **760 tools** — 512 package-verified, 248 upstream-documented (see [the README](../README.md#how-entries-are-verified)).
 
 Machine-readable copies of this table: [`catalog.json`](../data/catalog.json) · [`catalog.csv`](../data/catalog.csv).
 
@@ -21,6 +21,7 @@ Machine-readable copies of this table: [`catalog.json`](../data/catalog.json) ·
 | **[Adobe Acrobat Reader](adobe-acrobat-reader.md)** | [Productivity & Office](../16-productivity/) | Windows (packaged) | `Proprietary` | package |
 | **[Advanced IP Scanner](advanced-ip-scanner.md)** | [Networking](../02-networking/) | Windows (packaged) | `Freeware` | package |
 | **[age](age.md)** | [Privacy & Personal Security](../23-privacy-security/) | Windows (packaged) | `BSD-3-Clause` | package |
+| **[agent-qa](agent-qa.md)** | [Quality Assurance & Testing](../11-quality-assurance/) | Node.js 24+; Web, Android and iOS targets | `FSL-1.1-ALv2` | upstream |
 | **[AIMP (Music Player)](aimp-music-player.md)** | [Design & Engineering](../13-design-engineering/) | Windows (packaged) | `Proprietary` | package |
 | **[Aircrack-ng](aircrack-ng.md)** | [Cybersecurity](../03-cybersecurity/) | Linux / Windows | `GPL-2.0` | upstream |
 | **[Alacritty](alacritty.md)** | [Terminal & CLI](../20-terminal-cli/) | Windows (packaged) | `Apache-2.0` | package |

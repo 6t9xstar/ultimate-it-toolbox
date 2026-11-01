@@ -2,12 +2,13 @@
 
 API clients, debugging proxies, browser automation, load testing and code quality.
 
-**20 tools** — 10 package-verified, 10 upstream-documented.
+**21 tools** — 10 package-verified, 11 upstream-documented.
 
 Install the Windows tools below in one go with the [`category-quality-assurance`](../bundles/category-quality-assurance.winget.json) bundle — see [bundles](../bundles/).
 
 | Tool | What it does | Platform | Licence |
 |---|---|---|---|
+| **[agent-qa](../tools/agent-qa.md)** | agent-qa runs natural-language Web, Android and iOS regression tests through CLI/MCP, with persistent memid... | Node.js 24+; Web, Android and iOS targets | `FSL-1.1-ALv2` |
 | **[Apache JMeter](../tools/apache-jmeter.md)** | Apache JMeter is an open-source load-testing tool for analyzing and measuring the performance of web applic... | Windows (packaged) | `Apache-2.0` |
 | **[Appium](../tools/appium.md)** | Appium automates native, hybrid and mobile-web apps on Android and iOS through the WebDriver protocol | Cross-platform (Node.js) | `Apache-2.0` |
 | **[Bruno](../tools/bruno.md)** | Bruno is a local-first API client that stores collections as plain text files for version control and colla... | Windows (packaged) | `MIT` |

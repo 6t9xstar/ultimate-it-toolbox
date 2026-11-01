@@ -1,6 +1,6 @@
 {
  "generated_from": "https://github.com/6t9xstar/ultimate-it-toolbox",
- "count": 759,
+ "count": 760,
  "tools": [
   {
    "slug": "net-desktop-runtime-10",
@@ -305,6 +305,26 @@
    "rating": null,
    "verified": "2026-10-31",
    "card": "tools/age.md"
+  },
+  {
+   "slug": "agent-qa",
+   "name": "agent-qa",
+   "description": "agent-qa runs natural-language Web, Android and iOS regression tests through CLI/MCP, with persistent memidex memory and validated self-improvement.",
+   "category": "11-quality-assurance",
+   "category_title": "Quality Assurance & Testing",
+   "tier": "upstream",
+   "platform": "Node.js 24+; Web, Android and iOS targets",
+   "licence": "FSL-1.1-ALv2",
+   "source_model": "Source available",
+   "website": "https://vostride.com",
+   "winget": null,
+   "winget_source": null,
+   "chocolatey": null,
+   "install": "npm dev dependency; requires an AI provider and browser/device setup; early-stage software with external model/device costs; FSL restricts competing commercial uses",
+   "certifications": [],
+   "rating": null,
+   "verified": "2026-11-01",
+   "card": "tools/agent-qa.md"
   },
   {
    "slug": "aimp-music-player",
