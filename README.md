@@ -5,7 +5,7 @@
 **A curated directory of IT, networking, cybersecurity, Linux, Windows, development, DevOps, cloud, AI and productivity tools — discoverable by career, certification, platform and purpose.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-0567ff?style=for-the-badge)](LICENSE)
-[![Tools: 759](https://img.shields.io/badge/tools-759-24292f?style=for-the-badge)](tools/)
+[![Tools: 760](https://img.shields.io/badge/tools-760-24292f?style=for-the-badge)](tools/)
 [![Categories: 27](https://img.shields.io/badge/categories-27-24292f?style=for-the-badge)](#browse-by-category)
 [![Verified](https://img.shields.io/badge/512-package%20verified-2ea043?style=for-the-badge)](#how-entries-are-verified)
 [![Validate](https://github.com/6t9xstar/ultimate-it-toolbox/actions/workflows/validate.yml/badge.svg)](https://github.com/6t9xstar/ultimate-it-toolbox/actions/workflows/validate.yml)
@@ -22,7 +22,7 @@ Most "awesome" lists are a wall of links. This directory is built so you can fin
 
 1. **By category** — you need a packet analyser, so you open [Networking](02-networking/).
 2. **By certification** — you are studying for RHCSA or CCNA and want to know what to install. Open the [Certification Map](CERTIFICATION-MAP.md).
-3. **By name** — you know what you want, so you search [all <!--n:total-->759<!--/n--> tools](tools/).
+3. **By name** — you know what you want, so you search [all <!--n:total-->760<!--/n--> tools](tools/).
 4. **By data** — you want to filter it yourself, so you load [`catalog.json`](data/catalog.json) or [`catalog.csv`](data/catalog.csv).
 
 Every tool has **one canonical card** in [`tools/`](tools/), linked from whichever categories apply. Every card is generated from the data in [`.build/`](.build/), so there are no duplicate entries to keep in sync.
@@ -38,7 +38,7 @@ Every tool has **one canonical card** in [`tools/`](tools/), linked from whichev
 | Browse a subject area | The [category table](#browse-by-category) below |
 | Install tools for a certification | [CERTIFICATION-MAP.md](CERTIFICATION-MAP.md), then the matching [bundle](bundles/) |
 | Set up a new machine in one command | [Install bundles](bundles/) — role kits and whole categories |
-| Search every tool at once | [`tools/`](tools/) — one table, <!--n:total-->759<!--/n--> rows |
+| Search every tool at once | [`tools/`](tools/) — one table, <!--n:total-->760<!--/n--> rows |
 | Filter or script against the list | [`data/catalog.json`](data/catalog.json) · [`data/catalog.csv`](data/catalog.csv) (opens in Excel) |
 | Search and filter in a browser | [`index.html`](index.html) — a single-page search over the catalogue (see below) |
 | Replace paid software | [Open-Source Alternatives](26-alternatives/) |
@@ -114,14 +114,14 @@ Windows tools installable with winget. For each one:
 
 A [weekly check](.github/workflows/upstream-health.yml) confirms every winget id still exists in [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs).
 
-### Tier 2 — upstream-documented (<!--n:upstream-->247<!--/n--> tools)
+### Tier 2 — upstream-documented (<!--n:upstream-->248<!--/n--> tools)
 
 Linux, BSD, Kubernetes, appliance and self-hosted tools — the things that cannot have a Windows package. For each one:
 
 - The **official URL was HTTP-verified** to resolve, and is re-checked weekly.
 - The **licence and install route are as documented upstream**, and are *not* machine-verified the way a package id can be. Check the project's own licence file before relying on it commercially.
 
-That distinction is the honest one, and it is why the badge says <!--n:package-->512<!--/n--> rather than <!--n:total-->759<!--/n-->.
+That distinction is the honest one, and it is why the badge says <!--n:package-->512<!--/n--> rather than <!--n:total-->760<!--/n-->.
 
 ### What is deliberately *not* here
 
@@ -147,7 +147,7 @@ That distinction is the honest one, and it is why the badge says <!--n:package--
 | 08 | [AI, Machine Learning & Data Science](08-ai-ml-data/) | 22 |
 | 09 | [Virtualization & Storage](09-virtualization/) | 16 |
 | 10 | [Web Infrastructure](10-web-infrastructure/) | 27 |
-| 11 | [Quality Assurance & Testing](11-quality-assurance/) | 20 |
+| 11 | [Quality Assurance & Testing](11-quality-assurance/) | 21 |
 | 12 | [Hardware, IoT & Electronics](12-hardware-iot-robotics/) | 18 |
 | 13 | [Design & Engineering](13-design-engineering/) | 35 |
 | 14 | [Browsers](14-browser-tools/) | 19 |

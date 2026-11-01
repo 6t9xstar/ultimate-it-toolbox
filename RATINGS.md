@@ -4,7 +4,7 @@
 
 Almost every tool card in this directory reads `Not yet rated`. That is deliberate, and it is the honest state of the data.
 
-Rating <!--n:total-->759<!--/n--> tools would mean claiming to have installed, configured and compared all of them. Nobody has. A directory that labels tools "Best Overall" on the strength of search-engine popularity is worse than one that says nothing, because the label looks like evidence when it is really just traffic.
+Rating <!--n:total-->760<!--/n--> tools would mean claiming to have installed, configured and compared all of them. Nobody has. A directory that labels tools "Best Overall" on the strength of search-engine popularity is worse than one that says nothing, because the label looks like evidence when it is really just traffic.
 
 So the vocabulary below is defined and ready, and ratings get applied by people who have actually used the tool and can say why. A rating without a stated reason is not accepted — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
